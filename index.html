@@ -4,36 +4,77 @@
     <meta charset="utf-8" />
     <title>Unit 4 - Flexbox</title>
     <style>
+
+      h1{
+        color:rgb(165, 87, 42)
+      }
+
+      p{
+        color:rgb(77, 39, 18)
+      }
+
+      body{
+        background-color:rgb(255, 244, 228)
+      }
+
+      .fanty{
+        background-color:rgb(231, 207, 170);
+        display:flex;
+        height:400px;
+        justify-content:space-around;
+        align-items:center;
+      }
+
+      .booky{
+        background-color:rgb(182, 147, 92);
+        width:200px;
+        border: 2px solid rgb(165, 87, 42);
+        border-radius: 30px;
+        padding:10px
+      }
+
+      .bored{
+        border: 5px solid rgb(165, 87, 42);
+        border-radius: 30px;
+      }
     </style>
   </head>
   <body>
     <h1>Cozy Reads</h1>
-
+    <div class="fanty">
       <img
         src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654581271i/61242426.jpg"
         width="200"
+        class="bored"
       />
-      <p>
+      <p class="booky">
         It’s not easy to build a coffee shop in a place that has never had
         coffee before. #CozyFantasy
       </p>
-
+    </div>
+<br><br>
+    <div class="fanty">
     <img
       src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1569514209i/45047384.jpg"
       width="200"
+      class="bored"
     />
-    <p>
+    <p class="booky">
       The main character must oversee an inspection of a house for magical
       children. #CozyFantasy
     </p>
-
+    </div>
+<br><br>
+    <div class="fanty">
     <img
       src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1601307658i/53310061.jpg"
       width="200"
+      class="bored"
     />
-    <p>
+    <p class="booky">
       Who better to help cover up an accidental murder than overly protective
       aunties. #CozyMystery
     </p>
+    </div>
   </body>
 </html>
